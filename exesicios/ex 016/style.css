@@ -1,0 +1,9 @@
+*{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to bottom, #e604ee,#1f06fd, white);
+    text-align: center;
+    color: white;
+    background-attachment: fixed;
+}

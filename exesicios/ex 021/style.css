@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+header > h1{
+    font-size: 5em;
+    background: linear-gradient(to right, #00006e, #17c7f8);
+    background-clip: text;
+    color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4em;
+    text-align: center;
+}
+nav {
+    background-color: rgb(104, 104, 104);
+    color: white;
+    padding: 4px;
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.315);
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 100px;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: blue ;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#assuntos {
+    background-color: rgb(128, 184, 233);
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+#noticias >article >h2{
+    background-color: rgb(128, 184, 233);
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3em;
+}
+#noticias >article >p{
+    text-align: justify;
+}
+article{
+    background-color: lightgrey;
+    padding: 5px;
+}
+article > aside {
+    background-color: rgb(146, 146, 146);
+    text-align: right;
+    color: white;
+}
+footer{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+}
+footer >p >a{
+    text-decoration: none;
+    color: white;
+}
+
+footer >p >a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+footer >p{
+    margin: 4px;
+}
+
