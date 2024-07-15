@@ -4,71 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
-    <style>
-        body {
-            background-image: linear-gradient(to top, black, silver);
-        }
-        h1{
-            text-align: center;
-        }
-       aside{
-            display: inline-flex;
-            width: 400px;
-            height: 400px;
-            background-color: white;
-        }
-        aside > h1{
-            text-align: center;
-        }
-        article {
-            width: 100%;
-            height: 400px;
-            background-image: linear-gradient(to top, black, silver);
-        }
-        article > main{
-            display: inline-block;
-            width: 300px;
-            height: 300px;
-            background-color: white;
-        }
-        .pagamento {
-            width: 600px;
-            height: 600px;
-
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Teste de Landing page</h1>
-    <article>
+<main>
+        <article>
+            <aside>
+
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem officiis eius consequatur magni vitae laboriosam rerum. Rerum, temporibus autem illo pariatur nulla et nemo blanditiis quidem corrupti ullam, nesciunt corporis!</p>
+            </aside>
+        </article>
+        
+        <article>
         <aside>
-            <h1>Texto 01</h1>
+        
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem officiis eius consequatur magni vitae laboriosam rerum. Rerum, temporibus autem illo pariatur nulla et nemo blanditiis quidem corrupti ullam, nesciunt corporis!</p>
+        
         </aside>
-    </article>
-    <br>
-<article>
-    <aside>
-    
-            <h1>Texto 01</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem officiis eius consequatur magni vitae laboriosam rerum. Rerum, temporibus autem illo pariatur nulla et nemo blanditiis quidem corrupti ullam, nesciunt corporis!</p>
-    
-    </aside>
-</article>
-<br>
-    <article>
-        <aside>
-                <h1>Texto 01</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem officiis eius consequatur magni vitae laboriosam rerum. Rerum, temporibus autem illo pariatur nulla et nemo blanditiis quidem corrupti ullam, nesciunt corporis!</p>
-        </aside>
-    </article>
-    <br>
- <article id="pagamento">
-        <h1>Area de Pagamento</h1>
-        <main>
-            <h1>Qr code</h1>
-            <p>aqui vamos colocar um qr code e um codigo de copia e cola para pagamento </p>
-        </main>
- </article>
+        </article>
+        <article>
+            <aside>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem officiis eius consequatur magni vitae laboriosam rerum. Rerum, temporibus autem illo pariatur nulla et nemo blanditiis quidem corrupti ullam, nesciunt corporis!</p>
+            </aside>
+        </article>
+    </main>       
+         <footer >
+            <h1>Area de Pagamento</h1>
+            <aside id="pagamento">
+                <p>aqui vamos colocar um qr code e um codigo de copia e cola para pagamento </p>
+            </aside>
+            <div><img src=" data:image/png;base64,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" alt="qr code"></div>
+    </footer>
 </body>
 </html>

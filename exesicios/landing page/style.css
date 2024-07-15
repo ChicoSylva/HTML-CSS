@@ -1,16 +1,43 @@
+@charset 'UTF-8' ;
 
-div.carousel {
-    position: relative;
-    background-image: linear-gradient(to top, yellow, orange);
-    width: 300px;
-    height: 300px;
-    perspective: 500px;
-    transform-style: preserve-3d;
+body {
+    background-image: linear-gradient(to top, black, silver);
+}
+h1{
+    text-align: center;
+    color: white;
+
+}
+main {
+    font-family: 'Times New Roman', Times, serif;
+}
+aside{
+    display: inline-flex;
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    text-align: justify;
+    padding: 6px;
 }
 
-div.carousel div#card-container {
+article {
+    width: 96%;
+    height: 370px;
+    padding: 10px;
+    background-image: linear-gradient(to top, black, silver);
+    margin-bottom: 20px;
+}
+footer {
     position: absolute;
-    background-color: white;
-    width: 300px;
+    width: 100dvh;
+ }
+
+footer > div{
+    position: relative;
     height: 300px;
+    width: 300px;
+    background-color: rgb(31, 120, 197);
+    left: 80%;
+    top: 100%;
+    transform: translate(-50%, -50%);
 }
